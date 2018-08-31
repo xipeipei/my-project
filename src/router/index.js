@@ -8,6 +8,7 @@ Vue.use(Router)
 export const constantRouterMap = [
   { path: '/login', component: _import('login/index'), hidden: true },
   { path: '/upload', component: _import('login/upload'), hidden: true },
+  { path: '/index', component: _import('login/nav'), hidden: true },
   { path: '/authredirect', component: _import('login/authredirect'), hidden: true }
 ]
 

@@ -11,6 +11,7 @@ import 'normalize.css/normalize.css'
 import 'element-ui/lib/theme-chalk/index.css'
 import i18n from './lang'
 import './icons'
+import 'babel-polyfill'
 
 Vue.use(ElementUI, {
   VueI18n: (key, value) => i18n.t(key, value)
